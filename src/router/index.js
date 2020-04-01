@@ -9,6 +9,8 @@ import describe from "@/components/private/navigationChild/describe";
 import management from "@/components/private/navigationChild/management";
 import article from "@/components/private/navigationChild/article/article";
 import register from "@/components/indexComponents/register";
+import ocrCharacter from "@/components/private/navigationChild/ocrCharacter";
+import snippingPic from "@/components/private/navigationChild/snippingPic";
 
 Vue.use(Router)
 
@@ -34,6 +36,10 @@ export default new Router({
         {path: '/contact',component: contact},
         {path: '/describe',component: describe},
         {path: '/management',component: management},
+        {path: '/ocrCharacter',component: ocrCharacter},
+        {path: '/snippingPic',component: snippingPic},
+
+
       ]
     },
     {

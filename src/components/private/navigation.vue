@@ -18,6 +18,9 @@
             <li><router-link to="/contact">联系</router-link></li>
             <li><router-link to="/describe">订阅</router-link></li>
             <li><router-link to="/management">管理</router-link></li>
+            <li><router-link to="/ocrCharacter">文字识别</router-link></li>
+            <li><router-link to="/snippingPic">文字识别工具</router-link></li>
+
           </ul>
           <form class="navbar-form navbar-right">
             <div class="input-group">

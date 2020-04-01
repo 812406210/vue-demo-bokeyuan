@@ -9,12 +9,18 @@ import $ from 'jquery'
 import VueResource  from 'vue-resource'
 import echarts from "echarts"
 import ElementUI from 'element-ui';
+import html2canvas from 'html2canvas'
+import VueQr from 'vue-qr';
+import VueCropper from 'vue-cropper'
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/bootstrap/css/bootstrap.min.css'
 import './assets/bootstrap/js/bootstrap.min'
 import 'mint-ui/lib/style.css'
 Vue.config.productionTip = false
 Vue.use(MintUI)
+Vue.use(html2canvas)
+Vue.use(VueCropper)
+Vue.use(VueQr)
 Vue.use(VueResource)
 Vue.use(ElementUI);
 Vue.prototype.$echarts = echarts;
